@@ -5,7 +5,7 @@ class Grid2 extends StatelessWidget {
   Widget build(BuildContext context) {
     final image = DecorationImage(
       repeat: ImageRepeat.repeat,
-      image: AssetImage('assets/tile.jpg'),
+      image: AssetImage('assets/tile.png'),
     );
     return SizedBox(
       width: 300,
