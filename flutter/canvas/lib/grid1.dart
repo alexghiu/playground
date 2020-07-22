@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class Grid extends StatelessWidget {
+class Grid1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
       size: Size(200, 100),
-      painter: _GridPainter(),
+      painter: _Grid1Painter(),
     );
   }
 }
 
-class _GridPainter extends CustomPainter {
+class _Grid1Painter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     print('_GridPainter.paint');
