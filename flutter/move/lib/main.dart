@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'move1.dart';
 import 'move2.dart';
+import 'move3.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -11,7 +12,8 @@ void main() {
         title: Text('Move experiment'),
       ),
       // body: Move1(),
-      body: Move2(),
+      // body: Move2(),
+      body: Move3(),
     ),
   ));
 }
