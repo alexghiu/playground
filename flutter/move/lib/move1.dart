@@ -1,4 +1,3 @@
-import 'dart:developer' as developer;
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 
@@ -8,7 +7,7 @@ class Move1 extends StatefulWidget {
 }
 
 class _Move1State extends State<Move1> {
-  Matrix4 _transform = Matrix4.identity();
+  final Matrix4 _transform = Matrix4.identity();
 
   @override
   Widget build(BuildContext context) {
